@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+html._lock,
+body._lock {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+/*==================================*/
+/*==============================================================================================*/
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #114;
+  height: 100px;
+  width: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+  background-color: #444;
+  height: 100px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
